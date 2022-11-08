@@ -21,6 +21,7 @@ print('Playing?', player.queryBusy())
 #Play the first song (001.mp3) from the first folder (01)
 
 print('Playing track 001.mp3 in folder 01')
+#player.playTrack(folder, file) - first parameter is the folder number
 player.playTrack(1,1)
 #Wait 5 seconds...
 sleep(5)
